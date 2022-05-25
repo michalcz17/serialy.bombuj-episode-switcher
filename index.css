@@ -1,0 +1,41 @@
+/* Type your CSS code here. */
+
+.bombuj-switcher{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #1f2833;
+    border: 2px solid #00fff5;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+}
+
+#bombuj-switcher-playing{
+    color: #00fff5;
+}
+
+.bombuj-switcher > table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bombuj-switcher-notify-div{
+    color: #00fff5;
+    padding: 10px;
+    height: 20px;
+}
+
+.bombuj-switcher button{
+    background: #1f2833;
+    padding: 5px;
+    border: 2px solid #00fff5;
+    border-radius: 10px;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+}
