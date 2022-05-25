@@ -1,0 +1,35 @@
+<!-- Type your HTML code here. -->
+
+<div class="bombuj-switcher">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" crossorigin="anonymous">
+    <h2>bombuj.si media buttons</h2>
+    <hr>
+    <span>Seriál: <span id="bombuj-switcher-playing"></span></span>
+    <hr>
+    <div class="bombuj-switcher-notify-div">
+        <span id="bombuj-switcher-notify"></span>
+    </div>
+    <table>
+        <tr>
+            <th>Série (<span id="bombuj-switcher-serie"></span>)</th>
+            <td>
+                <button onclick="prevser();"><i class="fa-solid fa-backward-step"></i></button>
+            </td>
+            <td>
+                <button onclick="nextser();"><i class="fa-solid fa-forward-step"></i></button>
+            </td>
+        </tr>
+        <tr>
+            <th>Díl (<span id="bombuj-switcher-episode"></span>)</th>
+            <td>
+                <button onclick="prevep();"><i class="fa-solid fa-backward-step"></i></button>
+            </td>
+            <td>
+                <button onclick="nextep();"><i class="fa-solid fa-forward-step"></i></button>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+    <button onclick="test();"><i class="fa-solid fa-bug-slash"></i> Debug</button>
+</div>
